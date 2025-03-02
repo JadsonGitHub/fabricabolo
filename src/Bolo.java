@@ -8,7 +8,7 @@ public abstract class Bolo implements IBolo
     {
         this.codigo = codigo;
         this.custo = custo;
-        this.formato = null; // Formato pode ser definido depois
+        this.formato = null;
     }
 
     public Bolo(int codigo, double custo, IFormato formato)

@@ -5,7 +5,7 @@ public class VetorPrateleira implements IPrateleira
 {
     private IBolo[] prateleira;
     private int qtdBolo;
-    // Construtor que define o tamanho da prateleira
+
     public VetorPrateleira(int tamanho)
     {
         prateleira = new IBolo[tamanho];
